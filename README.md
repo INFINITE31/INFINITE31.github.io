@@ -8,7 +8,7 @@ HTML , CSS , JavaScipt
 
 ## Some of my projects
 
-[Grabe_.](https://top.gg/bot/Grabe_.) (A multifunctional discord bot with amazing features)
+[Grabe_.](op.gg/bot/919174669721014293) (A multifunctional discord bot with amazing features)
 
 ## Contact
 
