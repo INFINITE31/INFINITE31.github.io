@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+
+    font-family:sans-serif;
+    color:#fff;
+    background-color: #151313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.typer{
+    color:yellowgreen;
+}
