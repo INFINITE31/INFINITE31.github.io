@@ -133,6 +133,7 @@ body {
   margin-top:30px;
   display: inline-block;
   border-radius: 6px;
+  margin-right: 15px;
   border: 2px solid rgb(209, 56, 56);
   color: black;
   background-color: rgb(209, 56, 56);
@@ -143,9 +144,10 @@ body {
 }
 
 .container a:hover{
-  color: rgb(237, 232, 232);
+  color: black;
   background-color: crimson;
   border:2px solid crimson;
+  box-shadow:  0 0px crimson, 0 0 11px crimson, 0 0 30px crimson;
 }
 
 .typer{
