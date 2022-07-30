@@ -483,6 +483,7 @@ body {
   left: 40px;
   position: relative;
   bottom: -329px;
+  animation: fadeIn 2s;
 }
 
 
@@ -503,6 +504,8 @@ body {
 }
 
 .card-new p{
+  position: relative;
+  top: 10px;
   text-align: start;
   padding-left: 20px;
   padding-top: 10px;  
