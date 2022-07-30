@@ -374,7 +374,7 @@ body {
   }
   100% {
     opacity: 1;
-    left: 0;
+    left: 0px;
   }
 }
 @keyframes fadeIn {
@@ -466,6 +466,7 @@ body {
   font-weight: 700;
   margin-right: 15px;
   text-align: center;
+  animation: fadeIn 2s;
 
 }
 
@@ -476,7 +477,7 @@ body {
   box-shadow:  0 0px #6e7aff, 0 0 11px #6e7aff, 0 0 20px #6e7aff;
 }
 
-.information h6 {
+.card-grabe .information h6 {
   font-size: 15px;
   color: white;
   right: 720px;
@@ -498,24 +499,27 @@ body {
   background: #151515;
   overflow: hidden;
   color: white;
+  animation: fadeIn 2s;
 }
 
 .card-new p{
   text-align: start;
   padding-left: 20px;
   padding-top: 10px;  
+  animation: fadeIn 2s;
 }
 
-.more h6 {
+.card-grabe .more h6 {
   font-size:15px;
   color:white;
   right: 770px;
   position: fixed;
   bottom:300px;
+  animation: fadeIn 2s;
 }
 
 .card-grabe .more a {
-  top: 580px;
+  top: 570px;
   left: 38px;
   position: relative;
   width: 300px;
@@ -529,6 +533,7 @@ body {
   font-weight: 700;
   margin-right: 15px;
   text-align: center;
+  animation: fadeIn 2s;
 
 
 }
