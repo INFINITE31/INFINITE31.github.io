@@ -480,9 +480,9 @@ body {
 .card-grabe .information h6 {
   font-size: 15px;
   color: white;
-  right: 720px;
-  position: fixed;
-  bottom: 550px;
+  left: 40px;
+  position: relative;
+  bottom: -329px;
 }
 
 
@@ -512,9 +512,9 @@ body {
 .card-grabe .more h6 {
   font-size:15px;
   color:white;
-  right: 770px;
-  position: fixed;
-  bottom:300px;
+  right: -40px;
+  position: relative;
+  bottom: -555px;
   animation: fadeIn 2s;
 }
 
