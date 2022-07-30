@@ -450,12 +450,13 @@ body {
   background: crimson;
 }
 
-.buttons a{
-  top: -230px;
-  right: -1150px;
+.card-grabe .buttons a{
+  left: 85px;
+  top : 220px;
   position: relative;
-  width: 300px;
   display: inline-block;
+  width: 300px;
+  padding-left: 100px;
   border-radius: 6px;
   border: 2px solid #5865F2;
   color: white;
@@ -502,7 +503,7 @@ body {
 .card-new p{
   text-align: start;
   padding-left: 20px;
-  padding-top: 11px;  
+  padding-top: 10px;  
 }
 
 .more h6 {
@@ -513,9 +514,9 @@ body {
   bottom:300px;
 }
 
-.more a {
-  top: 130px;
-  right: -1092px;
+.card-grabe .more a {
+  top: 580px;
+  left: 38px;
   position: relative;
   width: 300px;
   display: inline-block;
