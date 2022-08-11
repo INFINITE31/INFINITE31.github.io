@@ -570,7 +570,7 @@ body {
     margin-right: 1px;
     color: #f6f4e6;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: 500;
     width: 85px;
@@ -644,7 +644,7 @@ body {
   }
   
   .container h1{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 80px;
     color: #f6f4e6;
     animation: fadeInMove 2s;
@@ -684,7 +684,7 @@ body {
     border: 2px solid rgb(209, 56, 56);
     color: black;
     background-color: rgb(209, 56, 56);
-    padding: 5px 30px;
+    padding: 5px 20px;
     text-decoration: none;
     animation: fadeInMove 2s;
     animation-fill-mode: forwards;
@@ -705,7 +705,7 @@ body {
   .card {
     position: absolute;
     margin: 370px 15px;
-    width: 400px;
+    width: 330px;
     height: 500px;
     top: 0;
     left: 1;
@@ -853,8 +853,8 @@ body {
   .card .ds-info .projects,
   .card .ds-info .status {
     position: relative;
-    margin-left: 18px;
-    margin-right: 80px;
+    margin-left: 15px;
+    margin-right: 50px;
     width: calc(301px / 3);
     color: white;
     animation: fadeInMove 2s;
