@@ -557,9 +557,8 @@ body {
   
   .navMenu {
     position: absolute;
-    top: 3%;
+    top: 5%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     animation: fadeIn 2s;
     animation-fill-mode: forwards;
@@ -570,11 +569,10 @@ body {
     margin-right: 1px;
     color: #f6f4e6;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 500;
-    width: 85px;
-    -webkit-transition: all 0.2s ease-in-out;
+    width: 70px;
     transition: all 0.2s ease-in-out;
   }
   
@@ -582,57 +580,6 @@ body {
     color: #fddb3a;
   }
   
-  .navMenu .dot {
-    width: 6px;
-    height: 6px;
-    background: #fddb3a;
-    border-radius: 50%;
-    opacity: 0;
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .navMenu a:nth-child(1):hover ~ .dot {
-    margin-left: 5px;
-    margin-right: 5px;
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-  }
-  
-  .navMenu a:nth-child(2):hover ~ .dot {
-    margin-left: 7px;
-    margin-right: 7px;
-    -webkit-transform: translateX(110px);
-    transform: translateX(110px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-  }
-  
-  .navMenu a:nth-child(3):hover ~ .dot {
-    margin-left: 24px;
-    margin-right: 24px;
-    -webkit-transform: translateX(200px);
-    transform: translateX(200px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-  }
-  
-  .navMenu a:nth-child(4):hover ~ .dot {
-    margin-left: 25px;
-    margin-right: 25px;
-    -webkit-transform: translateX(285px);
-    transform: translateX(285px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-  }
   
   .container {
     margin-top: 40%;
@@ -703,7 +650,7 @@ body {
   
   .card {
     position: absolute;
-    margin: 370px 15px;
+    margin: 440px 15px;
     width: 330px;
     height: 500px;
     top: 0;
@@ -771,7 +718,7 @@ body {
   
   .card-grabe {
     position: absolute;
-    margin: 350px 10px;
+    margin: 455px 10px;
     width: 320px;
     height: 550px;
     top: 0;
@@ -1040,7 +987,7 @@ body {
   
   .card-new {
     position: absolute;
-    margin: 690px 20px;
+    margin: 800px 20px;
     width: 300px;
     height: 200px;
     top: 0;
