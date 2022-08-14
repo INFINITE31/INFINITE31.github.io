@@ -12,83 +12,28 @@ body {
 }
 
 .navMenu {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  animation: fadeIn 2s;
-  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navMenu a {
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #f6f4e6;
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  font-weight: 500;
-  width: 85px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  font-size: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 5px;
 }
 
 .navMenu a:hover {
-  color: #fddb3a;
+  color: crimson;
 }
 
-.navMenu .dot {
-  width: 6px;
-  height: 6px;
-  background: #fddb3a;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 
-.navMenu a:nth-child(1):hover ~ .dot {
-  margin-left: 5px;
-  margin-right: 5px;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
 
-.navMenu a:nth-child(2):hover ~ .dot {
-  margin-left: 7px;
-  margin-right: 7px;
-  -webkit-transform: translateX(110px);
-  transform: translateX(110px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(3):hover ~ .dot {
-  margin-left: 24px;
-  margin-right: 24px;
-  -webkit-transform: translateX(200px);
-  transform: translateX(200px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(4):hover ~ .dot {
-  margin-left: 25px;
-  margin-right: 25px;
-  -webkit-transform: translateX(285px);
-  transform: translateX(285px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
 
 .container {
   margin-top: 20%;
@@ -554,26 +499,9 @@ body {
     background: #151313;
     font-family: "Montserrat", sans-serif;
   }
-  
-  .navMenu {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: fadeIn 2s;
-    animation-fill-mode: forwards;
-  }
-  
+
   .navMenu a {
-    margin-left: 1px;
-    margin-right: 1px;
-    color: #f6f4e6;
-    text-decoration: none;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 500;
-    width: 70px;
-    transition: all 0.2s ease-in-out;
+    font-size: 15px;
   }
   
   .navMenu a:hover {
