@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +11,7 @@ body {
   background: #151313;
   font-family: "Montserrat", sans-serif;
 }
+
 
 .navMenu {
   display: flex;
@@ -508,6 +508,7 @@ body {
     background: #151313;
     font-family: "Montserrat", sans-serif;
   }
+
 
   .navMenu a {
     font-size: 15px;
